@@ -8,16 +8,21 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme) => ({
     root: {
+        position: "absolute",
+        width: "100%",
         flexGrow: 1,
+        zIndex: "2",
     },
     appbar: {
-        backgroundColor: "#263238"
+        backgroundColor: "#263238",
     },
     menuButton: {
         marginRight: theme.spacing(2),
     },
     title: {
         flexGrow: 1,
+        fontFamily: "'Poppins', sans- serif",
+        fontWeight: "500"
     },
 }));
 
