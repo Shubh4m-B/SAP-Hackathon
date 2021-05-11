@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './Landing.css'
 
 export class Landing extends Component {
@@ -10,7 +11,7 @@ export class Landing extends Component {
                 <div className="Landing-container">
                     <img src="/Logo.ico" alt="Logo"></img>
                     <h1 className="Landing-title">Blooming Soul</h1>
-                    <button className="Landing-button">Get Started</button>
+                    <Link to='/login' className="Landing-button">Get Started</Link>
                 </div>
             </div>
         )
